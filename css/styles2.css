@@ -1,0 +1,47 @@
+.bubbles {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.hoop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-color: #ecf2ff;
+}
+
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.5vw;
+  height: 0.5vw;
+  border-radius: 50%;
+  background-color: #277afd;
+}
+
+.hoop:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  width: 25vw;
+  height: 2px;
+  background-color: gray;
+  transform: translateY(-50%);
+  z-index: -5;
+}

@@ -1,0 +1,97 @@
+.icons {
+  display: flex;
+}
+
+.icons img {
+  width: 7vw;
+  height: auto;
+  margin: 7vw;
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.icons img[alt="atlassian"] {
+  height: 6vw;
+}
+
+.circle-atlassian,
+.circle-asana,
+.circle-paypal,
+.circle-weave,
+.circle-calendar {
+  width: 10vw;
+  height: 10vw;
+  max-width: 120px;
+  max-height: 120px;
+  background-color: white;
+  border: 3px solid lightgray;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.circle-google,
+.circle-ads {
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  border: 3px solid lightgray;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.circle-google {
+  top: 10%;
+  right: 35%;
+}
+.icons img[alt="google"] {
+  width: 50px;
+  top: 10px;
+}
+
+.circle-atlassian {
+  top: 10%;
+  right: 20%;
+}
+
+.circle-asana {
+  top: 10%;
+  right: 5%;
+}
+
+.circle-paypal {
+  top: 25%;
+  right: 35%;
+}
+
+.circle-weave {
+  top: 25%;
+  right: 15%;
+}
+
+.circle-ads {
+  top: 40%;
+  right: 25%;
+}
+
+.circle-calendar {
+  top: 45%;
+  right: 5%;
+}
+
+
+/* footer icons */
+
+
+
+.hire img {
+  width: 20px;
+  height: auto;
+}
