@@ -1,0 +1,14 @@
+.header-nav ul li a:hover,
+.priv1:hover,
+.priv2:hover,
+.foot:hover {
+  color: blue; 
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover,
+.learn-more:hover {
+  cursor: pointer;
+  font-weight: bold;
+}

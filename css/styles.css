@@ -51,6 +51,21 @@ body {
   margin-right: 20px;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: gray;
+  margin: 5px 0;
+}
+
+/* background sect */
 .bg {
   display: flex;
   justify-content: space-between;

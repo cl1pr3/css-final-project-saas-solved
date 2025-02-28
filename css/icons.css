@@ -1,5 +1,6 @@
 .icons {
   display: flex;
+  border: red solid 2px;
 }
 
 .icons img {
