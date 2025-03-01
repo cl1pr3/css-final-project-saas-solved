@@ -1,18 +1,25 @@
 .icons {
   display: flex;
   border: red solid 2px;
+  position: relative;
+  width: 60%;
+  max-width: 750px;
+  height: 100%;
+  min-height: 450px;
 }
 
 .icons img {
   width: 7vw;
   height: auto;
   margin: 7vw;
-  max-width: 70px;
-  max-height: 70px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .icons img[alt="atlassian"] {
-  height: 6vw;
+  height: 4vw;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .circle-atlassian,
@@ -20,10 +27,10 @@
 .circle-paypal,
 .circle-weave,
 .circle-calendar {
-  width: 10vw;
-  height: 10vw;
-  max-width: 120px;
-  max-height: 120px;
+  width: 9vw;
+  height: 9vw;
+  max-width: 80px;
+  max-height: 80px;
   background-color: white;
   border: 3px solid lightgray;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -50,7 +57,7 @@
 
 .circle-google {
   top: 10%;
-  right: 35%;
+  left: 5%;
 }
 .icons img[alt="google"] {
   width: 50px;
@@ -58,32 +65,32 @@
 }
 
 .circle-atlassian {
-  top: 10%;
-  right: 20%;
+  top: 5%;
+  right: 55%;
 }
 
 .circle-asana {
-  top: 10%;
+  top: 5%;
   right: 5%;
 }
 
 .circle-paypal {
-  top: 25%;
-  right: 35%;
+  top: 35%;
+  left: 5%;
 }
 
 .circle-weave {
-  top: 25%;
-  right: 15%;
+  top: 35%;
+  right: 35%;
 }
 
 .circle-ads {
-  top: 40%;
-  right: 25%;
+  top: 70%;
+  left: 25%;
 }
 
 .circle-calendar {
-  top: 45%;
+  top: 75%;
   right: 5%;
 }
 
