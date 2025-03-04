@@ -41,4 +41,137 @@
       width: 80%;
       justify-content: center;
     }
+
+    .blue {
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+    }
+
+    .blue-left {
+      flex-direction: row;
+      width: 80%;
+    }
+
+    .hire-us {
+      width: 60%;
+    }
+
+    .head {
+      width: 25%;
+      margin: 0px;
+    }
+
+    .privacy {
+      align-content: flex-start;
+    }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .fgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    flex: 1;
+  }
+
 }
+
+@media (max-width: 763px) {
+
+  .icons {
+    width: 100%;
+  }
+
+  
+
+  .bubbles {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10%;
+  }
+
+  .hoop {
+    flex-direction: row;
+  } 
+  
+  .hoop::before {
+    display: none;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .dot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .buy-box {
+    margin-top: 30px;
+  }
+
+  .pros {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blue-left {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .head {
+    align-items: center;
+    width: 100%;
+  }
+
+  .hire-us {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email {
+    width: 90%;
+  }
+
+  .privacy {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+  }
+
+  .priv2 {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fgrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footle,
+  .footle1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
