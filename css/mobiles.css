@@ -51,10 +51,16 @@
     .blue-left {
       flex-direction: row;
       width: 80%;
+      align-items: center;
     }
 
     .hire-us {
       width: 60%;
+      align-items: center;
+    }
+
+    .text4 {
+      text-align: center;
     }
 
     .head {

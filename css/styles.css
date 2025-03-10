@@ -117,8 +117,6 @@ body {
   left: 0%;
   gap: 20px;
   margin: 5%;
-
-  border: 1px red solid;
 }
 
 .why,
@@ -166,9 +164,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  border: 2px solid rgba(243, 246, 248, 0.5); /* Semi-transparent border */
-  box-shadow: 4px 4px 10px rgba(134, 134, 134, 0.3); /* Soft shadow for shading effect */
+  padding: 30px;
+  width: 20%;
 }
+
 .price-per {
   display: flex;
   align-items: end;
@@ -221,11 +220,15 @@ body {
 }
 
 .hire-us {
-  border-bottom: 1px solid white;
   width: 100%;
   display: flex;
   align-items: start;
   flex-direction: column;
+}
+
+.text4 {
+    border-top: 1px solid white;
+    padding-top: 20px;
 }
 
 .title3 {

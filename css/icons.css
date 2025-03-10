@@ -1,6 +1,5 @@
 .icons {
   display: flex;
-  border: red solid 2px;
   position: relative;
   width: 60%;
   max-width: 750px;
@@ -114,4 +113,76 @@
 .hire img {
   width: 20px;
   height: auto;
+}
+
+.bubbles {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.hoop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-color: #ecf2ff;
+}
+
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.5vw;
+  height: 0.5vw;
+  border-radius: 50%;
+  background-color: #277afd;
+}
+
+.hoop:first-child::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 23vw;
+  height: 2px;
+  background-color: gray;
+  transform: translateY(-50%);
+  z-index: -5;
+  }
+
+.hoop:last-child::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  width: 23vw;
+  height: 2px;
+  background-color: gray;
+  transform: translateY(-50%);
+  z-index: -5;
+}
+
+.hoop:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: -150%;
+  width: 23vw;
+  height: 2px;
+  background-color: gray;
+  transform: translateX(50%);
+  z-index: -5;
 }
