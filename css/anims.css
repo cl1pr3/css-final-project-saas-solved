@@ -18,3 +18,17 @@ button:hover,
   border: 2px solid rgba(243, 246, 248, 0.5); 
   box-shadow: 4px 4px 10px rgba(134, 134, 134, 0.3); 
 }
+
+.circle-google:hover,
+.circle-atlassian:hover,
+.circle-asana:hover,
+.circle-paypal:hover,
+.circle-weave:hover,
+.circle-calendar:hover,
+.circle-ads:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid lightgray;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
